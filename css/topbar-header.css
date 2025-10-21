@@ -1,0 +1,78 @@
+.top-bar {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    color: #666;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+}
+
+.top-bar p {
+    font-size: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.logos-topbar {
+    display: flex;
+    gap: 10px;
+}
+
+
+.logos-topbar a {
+    font-size: 18px;
+    color: #666;
+}
+
+.header {
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo :first-child {
+    background-color: #23C152;
+    color: #FFF;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+
+}
+
+.logo :last-child {
+    color: #4A4A4A;
+    font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links li {
+  padding: 10px; 
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li:hover{
+    background-color: #23C152;
+    color: white;
+    padding: 10px;
+    
+}
