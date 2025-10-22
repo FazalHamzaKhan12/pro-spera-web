@@ -7,5 +7,9 @@ body{
     background-color: rgb(106, 65, 145);
 }
 
-
-
+.second-content{
+    display: flex;
+    width: 300px;
+      height: 500px;
+      background-color: yellow;
+}
