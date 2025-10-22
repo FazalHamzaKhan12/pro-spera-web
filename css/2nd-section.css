@@ -1,0 +1,76 @@
+/* 2nd Section Main Div */
+.dusra-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    background-color: #fff;
+}
+
+/* All Togather This called Grouped Class Selector */
+/* Learn from ChatGPT THIS IS SO COOL FOR CLEAN CODE */
+.first-pt,
+.second-pt,
+.third-pt {
+    width: 350px;
+}
+
+/* FOR Main Heading*/
+
+.first-pt h2,
+.second-pt h2,
+.third-pt h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #3B4E58;
+    font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* For Descption Text */
+.first-pt h3,
+.second-pt h3,
+.third-pt h3 {
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+/* For Readme Text */
+.first-pt h5,
+.second-pt h5,
+.third-pt h5 {
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+.first-img {
+    background: url(../images/clean-design-img.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+}
+
+.second-img {
+    background: url(../images/2ns-img.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+}
+
+.third-img {
+    background: url(../images/3rd-img.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+}
